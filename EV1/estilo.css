@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: papayawhip;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: #333333;
+}
+hr {
+    border: none;
+    border-top: 1px solid #333;
+    margin: 20px auto;
+    width: 50%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s;
+}
+li a:hover {
+    background-color: #ccc;
+}
